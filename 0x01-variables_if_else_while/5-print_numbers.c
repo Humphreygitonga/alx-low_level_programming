@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'prints all single digit numbers of base 10'
- * return: always 0
+ * return: Always 0
  */
 int main(void)
 {
