@@ -8,7 +8,7 @@
  *
  * Return: Pointer to the new string (Success), NULL (Error)
  */
-char *argstostr( int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int i, j, k, len;
 	char *str;
@@ -20,6 +20,7 @@ char *argstostr( int ac, char **av)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 			len++;
+		len++;
 	}
 
 	str = malloc(sizeof(char) * (len + 1));
