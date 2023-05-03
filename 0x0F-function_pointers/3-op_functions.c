@@ -37,7 +37,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op-div - calculates the division
+ * op_div - calculates the division
  * @a: first integer
  * @b: second integer
  *
