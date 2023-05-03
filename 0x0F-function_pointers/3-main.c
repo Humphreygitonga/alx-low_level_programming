@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include "3-calc.h"
 /**
- * main - prints the result of simple operations.
- * @argc: The number of arguments supplies to the program.
+ * main - Prints the result of simple operations.
+ * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
  * Return: Always 0.
@@ -31,7 +31,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	}
 
 	if ((*op == '/' && num2 == 0) ||
-			(*op == '%' && num2 == 0))
+	    (*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
