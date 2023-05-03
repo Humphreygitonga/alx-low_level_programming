@@ -98,4 +98,4 @@ int main(int argc, char *argv[])
 	putchar('\n');
 	free(result);
 	return (0);
-}	 
+}
